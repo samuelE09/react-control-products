@@ -88,7 +88,7 @@ function ProductList() {
                                         <button
                                             className='btn'
                                             onClick={()=>{deleteProduct(index, product.price_total, product.amount)}}>
-                                            <img src="/delete.svg" width="30px" alt=""/>
+                                            <img src="./delete.svg" width="30px" alt=""/>
                                         </button> 
                                     </td>
                                 </tr>
